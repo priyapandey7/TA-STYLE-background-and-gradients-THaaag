@@ -1,0 +1,317 @@
+<!-- writeCode
+
+- Create a layout according to the design shown below.
+
+![Backgrounds and gradients level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/background-and-gradients/ex-2.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Social-media Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+  </head>
+    <body>
+        <!-- Head -->
+             <div class="container">
+                <header class="header flex">
+                       <div class="header-left">
+                           <h1 >Social Media Dashboard</h1> 
+                           <span class="header-subtext"> Total Follower : 23,004</span>
+                      </div>
+                      <div class="header-right flex">
+                         <h2 class="toogle-level">Dark-Mode</h2>
+                         <div class="toogle-button"></div>
+                     </div>
+                </header>
+            </div>
+
+
+            <!-- section-1 -->
+     <main>
+         <section class = "section-1 flex ">
+                <div class = "social-media facebook">
+                      <div class="top-border"></div>
+                      <div class="head">
+                            <i class="fa fa-facebook-square"></i>
+                            <span class="user"> @nathanf</span>
+                     </div>
+                     <div class="user-deta">
+
+                          <span class="number">
+                            1987
+                          </span>
+
+                          <span class="follower">
+                            followers
+                          </span>
+
+                      </div>
+                          <span class="foot">
+                            <i class="arrow up"></i>
+                            <p>12 &nbsp; Today</p>         
+                         </span>
+                 </div>
+                <!-- twitter -->
+                     <div class = "social-media twitter">
+                             <div class="top-border"></div>
+                              <div class="head">
+                                  <i class="fa fa-twitter-square"></i>
+                                  <span class="user"> @nathanf</span>
+                            </div>
+                             <div class="user-deta">
+                                 <span class="number">
+                                      1044
+                                  </span>
+                                 <span class="follower">
+                                    followers
+                                 </span>
+                             </div>
+                              <span class="foot">
+                                  <i class="arrow up"></i>
+                                  <p>99 &nbsp; Today</p>         
+                             </span>
+                      </div>
+             
+                  <!-- instagram -->
+                   <div class = "social-media instagram">
+                          <div class="top-border"></div>
+                         <div class="head">
+                             <i class="fa fa-instagram instagram"></i>
+                              <span class="user"> @realnathanf</span>
+                         </div>
+                        <div class="user-deta">
+                             <span class="number">
+                                  11K
+                             </span>
+                             <span class="follower">
+                                 followers
+                             </span>
+                        </div>
+                      <span class="foot">
+                         <i class="arrow up"></i>
+                        <p>12 &nbsp; Today</p>         
+                        </span>
+                    </div>
+                <!-- youtube -->
+                     <div class = "social-media youtube">
+                           <div class="top-border"></div>
+                           <div class="head">
+                                 <b class="fa fa-youtube-play"></b>
+                                  <span class="user"> @nathanf</span>
+                           </div>
+                     <div class="user-deta">
+                            <span class="number">
+                               8239
+                           </span>
+                           <span class="follower">
+                             Subscriber
+                            </span>
+
+                            </div>
+                            <span class="foot">
+                                 <i class="arrow-down down"></i>
+                                 <p class="bottom">12 &nbsp; Today</p>         
+                            </span>
+                      </div>
+         </section>
+
+         <!-- section-2 -->
+                <section class="section-1  container">
+                    <h2> Overview - Today </h2>
+                    <div class="wrapper">
+                      
+                      <!--facebook page-view -->
+
+                     <div class="about-info">
+                         <div class="head-icon">
+                            <div class="user">
+                                Page Views
+                            </div>
+                            <div >
+                                <i class="fa fa-facebook-square"></i>
+                            </div>
+                         </div>
+                         <div class="flex-end">
+                                <div class="number">
+                                     87
+                               </div>
+
+                                <div>
+                                     <i class="arrow up"></i>   
+                                     <p>3%</p>          
+                                  </div>
+                          </div>
+                     </div>
+
+                     <!-- facebook likes -->
+                     <div class="about-info">
+                        <div class="head-icon">
+                           <div class="user">
+                               likes
+                           </div>
+                           <div >
+                               <i class="fa fa-facebook-square"></i>
+                           </div>
+                        </div>
+                        <div class="flex-end">
+                               <div class="number">
+                                    52
+                              </div>
+
+                               <div>
+                                    <i class="arrow-down down"></i>   
+                                    <p class="bottom">2%</p>          
+                                 </div>
+                         </div>
+                    </div>
+
+                    <!-- instagram-like -->
+
+                    <div class="about-info">
+                        <div class="head-icon">
+                           <div class="user">
+                               likes
+                           </div>
+                           <div >
+                            <i class="fa fa-instagram instagram"></i>
+                           </div>
+                        </div>
+                        <div class="flex-end">
+                               <div class="number">
+                                    52
+                              </div>
+
+                              <div>
+                                <i class="arrow up"></i>   
+                                <p>2257%</p>          
+                             </div>
+                         </div>
+                    </div>
+                    <!-- instagram profile-views  -->
+
+                    <div class="about-info">
+                        <div class="head-icon">
+                           <div class="user">
+                               profile Views
+                           </div>
+                           <div >
+                            <i class="fa fa-instagram instagram"></i>
+                           </div>
+                        </div>
+                        <div class="flex-end">
+                               <div class="number">
+                                    52k
+                              </div>
+
+                              <div>
+                                <i class="arrow up"></i>   
+                                <p>1375%</p>          
+                             </div>
+                         </div>
+                    </div>
+
+                    <!-- retweets -->
+                    <div class="about-info">
+                        <div class="head-icon">
+                           <div class="user">
+                               retweets
+                           </div>
+                           <div >
+                            <i class="fa fa-twitter-square"></i>
+                           </div>
+                        </div>
+                        <div class="flex-end">
+                               <div class="number">
+                                    117
+                              </div>
+
+                              <div>
+                                <i class="arrow up"></i>   
+                                <p>305%</p>          
+                             </div>
+                         </div>
+                    </div>
+
+                    <!-- twitter likes -->
+
+                    <div class="about-info">
+                        <div class="head-icon">
+                           <div class="user">
+                               likes
+                           </div>
+                           <div >
+                            <i class="fa fa-twitter-square"></i>
+                           </div>
+                        </div>
+                        <div class="flex-end">
+                               <div class="number">
+                                    507
+                              </div>
+
+                              <div>
+                                <i class="arrow up"></i>   
+                                <p>553%</p>          
+                             </div>
+                         </div>
+                    </div>
+                <!-- youtube likes -->
+
+                <div class="about-info youtube">
+                    <div class="head-icon">
+                       <div class="user">
+                           likes
+                       </div>
+                       <div >
+                        <b class="fa fa-youtube-play"></b>
+                       </div>
+                    </div>
+                    <div class="flex-end">
+                           <div class="number">
+                                107
+                          </div>
+
+                          <div>
+                            <i class="arrow-down down"></i>
+                            <p class="bottom">19%</p>          
+                         </div>
+                     </div>
+                </div>
+
+                <!-- youtube total views -->
+
+                 <div class="about-info youtube">
+                     <div class="head-icon">
+                         <div class="user">
+                           total-view
+                         </div>
+                        <div >
+                          <b class="fa fa-youtube-play"></b>
+                        </div>
+                    </div>
+                         <div class="flex-end">
+                           <div class="number">
+                                1407
+                          </div>
+
+                          <div>
+                            <i class="arrow-down down"></i>
+                            <p class="bottom">29%</p>          
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+     </main>
+   
+  </body>
+</html>             
